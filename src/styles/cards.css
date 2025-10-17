@@ -23,12 +23,17 @@
 .speaker-card figcaption{
     position: relative;
     padding: 10px;
-    background-color:azure;
+    background-color:rgb(253, 253, 253);
 }
 
-.speaker-card h3{
+.speaker-card h2{
     margin:5px 0 ;
     font-size: 18px;
-    color: rgb(0, 0, 0);
+    color: #94a48b;
+}
+
+.speaker-card p{
+    font-size: 15px;
+    color: #94a48b;
 }
 
