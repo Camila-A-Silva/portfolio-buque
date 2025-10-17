@@ -12,6 +12,8 @@
 /* hover executar quando o mouse */
 .speaker-card:hover{
     transform: scale (1.2);
+    filter:  drop-shadow(0 0 3px rgb(167, 167, 167));
+    cursor:pointer;
 }
 
 .speaker-card img{
@@ -37,3 +39,5 @@
     color: #94a48b;
 }
 
+
+    

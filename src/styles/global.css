@@ -28,11 +28,19 @@ html{
     
 }
 
+.content-capa img{
+    height: 600px;
+}
+
+
+
 .titulo{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    
+    
     z-index: 111;
+    text-align: center;
 }
 .titulo h1{
     color: #2B4A33;
@@ -44,15 +52,32 @@ html{
     background-color: #E8DCBC;
 }
 
-.img-fundo{
-    width: 100px;
-    height: 100px;
-    position:absolute;
-    
-}
+
 
 .content-bq-s, .content-bq-g, .content-bq-ft{
     justify-content: space-around;
+    background-color: #A5B89B;
+}
+
+/* Estilos para o botão do Whatsapp */
+.whatsapp-button {
+  position: fixed;
+  /* distância do rodapé */
+  bottom: 100px; 
+  /* distância da lateral */  
+  right: 96px;    
+  filter: drop-shadow(0 0 4px #ffffff); 
+  z-index: 1000;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.whatsapp-button img {
+  width: 40px;  
+}
+
+.whatsapp-button:hover {
+  transform: scale(1.1);
+  
 }
 
 
