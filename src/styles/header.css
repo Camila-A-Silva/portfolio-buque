@@ -6,7 +6,7 @@
     left: 0;
     width: 100%;
     /* Altura do header */
-    height: 8vh;
+    height: 10vh;
     background-color: #ecdcafe8;
     box-shadow: o 2px 5 px rgba(0,0,0,0.1);
 
@@ -34,9 +34,9 @@
 
 /* Itens do menu: estilo botão */
 .header-menu li{
-    color:black;
+    color:#2B4A33;
     font-family:'Lucida Sans', 'Lucida Sans Regular';
-    font-size: 20px;
+    font-size: 15px;
     padding: 8px 15px;
     /* sai da seleta para mão */
     cursor: pointer; 
@@ -52,12 +52,4 @@
     background-color: #A5B89B;
     color: #fff;
     box-shadow: 0 4px 8px #97aa8c;
-}
-
-/* Estilo da frase */
-.header-name h1{
-    display: flex;
-    align-items: center;
-    font-family:Georgia;
-    font-size: 15px;
 }

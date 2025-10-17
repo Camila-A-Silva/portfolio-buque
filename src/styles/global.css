@@ -9,7 +9,6 @@ html{
    scroll-behavior: smooth; 
 }
 
-
 .content-capa, .content-bq-s, .content-bq-g, .content-bq-ft{
     width: 100%;
     height: 100vh;
@@ -20,65 +19,54 @@ html{
     color: #fff;
 }
 
+.content-bq-s, .content-bq-g, .content-bq-ft{
+    background-color: #A5B89B;
+    
+}
+
 .content-capa{
     background-color:#F0EADA;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    
+}
+
+.content-bq-s{
+    flex-direction: column;
+    text-align: center;
+}
+
+.card{
+    flex-direction: row;
 }
 
 .content-capa img{
     height: 600px;
 }
 
-
-
 .titulo{
-    display: flex;
-    flex-direction: column;
-    
+    color: #2B4A33;
     
     z-index: 111;
     text-align: center;
 }
-.titulo h1{
-    color: #2B4A33;
-    
+
+.content-bq-s > h1{
+    position:absolute;
+    top: 100px;
 }
 
 .titulo p{
+    display: flex;
+    margin: 60px;
     color: #A5B89B;
     background-color: #E8DCBC;
+    font-size: 30px;
+
 }
 
 
 
-.content-bq-s, .content-bq-g, .content-bq-ft{
-    justify-content: space-around;
-    background-color: #A5B89B;
-}
-
-/* Estilos para o botão do Whatsapp */
-.whatsapp-button {
-  position: fixed;
-  /* distância do rodapé */
-  bottom: 100px; 
-  /* distância da lateral */  
-  right: 96px;    
-  filter: drop-shadow(0 0 4px #ffffff); 
-  z-index: 1000;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.whatsapp-button img {
-  width: 40px;  
-}
-
-.whatsapp-button:hover {
-  transform: scale(1.1);
-  
-}
 
 
 
