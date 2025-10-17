@@ -1,0 +1,34 @@
+.speaker-card{
+    max-width: 250px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    /* envelopa a imagem se for maior */ 
+    overflow: hidden; 
+    text-align: center;
+    z-index: 111;
+    justify-content: center;
+}
+
+/* hover executar quando o mouse */
+.speaker-card:hover{
+    transform: scale (1.2);
+}
+
+.speaker-card img{
+    width: 100%;
+    display: block;
+    position: relative;
+}
+
+.speaker-card figcaption{
+    position: relative;
+    padding: 10px;
+    background-color:azure;
+}
+
+.speaker-card h3{
+    margin:5px 0 ;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+}
+

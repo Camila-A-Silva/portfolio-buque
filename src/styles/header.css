@@ -7,7 +7,7 @@
     width: 100%;
     /* Altura do header */
     height: 8vh;
-    background-color: dimgray;
+    background-color: #ecdcafe8;
     box-shadow: o 2px 5 px rgba(0,0,0,0.1);
 
     display: flex;
@@ -51,7 +51,7 @@
 .header-menu li:hover{
     background-color: #A5B89B;
     color: #fff;
-    box-shadow: 0 4px 8px #798971;
+    box-shadow: 0 4px 8px #97aa8c;
 }
 
 /* Estilo da frase */
